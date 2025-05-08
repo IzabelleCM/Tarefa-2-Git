@@ -1,0 +1,18 @@
+- Nome completo: Izabelle Cavalcante de Medeiros
+- Comandos utilizados:
+$ git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead.git
+$ cd curso-branchs-ifrn-ead
+$ git config user.name "Izabelle"
+$ git config user.email "izabelle3cia@gmail.com"
+$ git add texto.txt
+$ git commit -m "Primeiro commit do arquivo texto na main"
+$ git checkout -b feature-1
+$ git add texto.txt
+$ git commit -m "Modifica texto.txt na branch feature-1"
+$ git checkout main
+$ git add texto.txt
+$ git commit -m "Segundo commit na main - editando a mesma linha da feature-1"
+$ git merge feature-1
+$ git add texto.txt
+$ git commit -m "Commit depois de resolver o conflito do merge manualmente"
+$ git checkout -b add-comandos
